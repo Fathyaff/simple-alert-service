@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="859627e2-f1ef-4f52-8c3e-9ea869273639" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-core/src/main/java/com/example/monitoring/slack/gateway/DefaultSlackGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-core/src/main/java/com/example/monitoring/slack/gateway/SlackGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-core/src/main/java/com/example/monitoring/slack/gateway/SlackGatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-core/src/main/java/com/example/monitoring/slack/gateway/SlackMessageCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-core/src/main/java/com/example/monitoring/slack/gateway/SlackProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-core/src/test/java/com/example/monitoring/slack/gateway/DefaultSlackGatewayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-service/src/main/java/com/example/monitoring/constant/UriConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-service/src/main/java/com/example/monitoring/slack/controller/SlackMonitoringAlertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-service/src/main/java/com/example/monitoring/slack/dto/request/SlackMonitoringAlertCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-service/src/main/java/com/example/monitoring/slack/dto/response/SlackMonitoringAlertDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-service/src/test/java/com/example/monitoring/slack/controller/SlackMonitoringAlertControllerIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-service/src/test/java/com/example/monitoring/slack/controller/SlackMonitoringAlertControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring-alert-service/src/test/java/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2F6rnxDU4iEEcqfAe0PBCQRDSB2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/monitoring-alert-core/src/main/java/com/example/monitoring/slack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/monitoring-alert-service/src/test/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.monitoring.slack.response" />
+      <recent name="com.example.monitoring.slack.request" />
+      <recent name="com.example.monitoring.slack.gateway" />
+      <recent name="com.example.monitoring.slack.usecase" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/monitoring-alert-service/src/test/java" />
+      <recent name="$PROJECT_DIR$/monitoring-alert-service/src/main/java/com/example/monitoring" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.monitoring.slack.controller" />
+      <recent name="com.example.monitoring.slack.gateway" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SlackMonitoringAlertControllerTest.givenCmd_whenAlertSlack_shouldCallSlackGateway">
+    <configuration name="DefaultSlackGatewayTest.givenCmd_whenSend_shouldCallRestTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monitoring-alert-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.monitoring.slack.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.monitoring.slack.gateway" />
+      <option name="MAIN_CLASS_NAME" value="com.example.monitoring.slack.gateway.DefaultSlackGatewayTest" />
+      <option name="METHOD_NAME" value="givenCmd_whenSend_shouldCallRestTemplate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlackMonitoringAlertControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monitoring-alert-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.monitoring.slack.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.monitoring.slack.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.monitoring.slack.controller.SlackMonitoringAlertControllerIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlackMonitoringAlertControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monitoring-alert-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.monitoring.slack.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.monitoring.slack.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.monitoring.slack.controller.SlackMonitoringAlertControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlackMonitoringAlertControllerTest.givenCmd_whenAlertSlack_shouldCallSlackGateway" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monitoring-alert-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.monitoring.slack.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.monitoring.slack.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.monitoring.slack.controller.SlackMonitoringAlertControllerTest" />
+      <option name="METHOD_NAME" value="givenCmd_whenAlertSlack_shouldCallSlackGateway" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="simple-alert-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="simple-alert-service" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitoringAlertCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="monitoring-alert-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.monitoring.MonitoringAlertCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitoringAlertServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="monitoring-alert-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.monitoring.MonitoringAlertServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimplealertserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simple-alert-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.simplealertservice.SimplealertserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SlackMonitoringAlertControllerTest.givenCmd_whenAlertSlack_shouldCallSlackGateway" />
+        <item itemvalue="JUnit.SlackMonitoringAlertControllerTest" />
+        <item itemvalue="JUnit.SlackMonitoringAlertControllerIntegrationTest" />
+        <item itemvalue="JUnit.DefaultSlackGatewayTest.givenCmd_whenSend_shouldCallRestTemplate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="859627e2-f1ef-4f52-8c3e-9ea869273639" name="Changes" comment="" />
+      <created>1663823549220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663823549220</updated>
+      <workItem from="1663823551799" duration="10833000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
